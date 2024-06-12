@@ -1,10 +1,10 @@
 # LiteraryHub - SWE Frontend README
 
-This repository contains the frontend code for the LiteraryHub plaform. It is built with Node.js, Express, and MongoDB. The application provides functionalities such as user authentication, book ratings, and managing book information. The backend code is responsible for handling all the server-side logic and database connections. The frontend code can be found in the [swe-frontend](https://github.com/LiteraryHub/swe-frontend) repository. 
+This repository contains the frontend code for the LiteraryHub platform. It is built with Next.js, TypeScript, and Tailwind CSS. The application provides functionalities such as user authentication, book ratings, and managing book information. The backend code can be found in the [swe-backend](https://github.com/LiteraryHub/swe-backend) repository.
 
 ## Overview
 
-The LiteraryHub is a platform for book lovers. It provides functionalities such as user authentication, book ratings, and managing book information. This repository, `swe-backend`, contains all the server-side code and database connections. 
+The LiteraryHub is a platform for book lovers. It allows users to rate books, add books to their reading list, and discover new books based on their preferences. The platform also provides a community feature where users can connect with other book lovers, share book recommendations, and discuss their favorite books. The platform is built using modern web technologies such as Next.js, TypeScript, and Tailwind CSS. It also uses a PostgreSQL database to store user and book information. The platform is designed to be user-friendly, responsive, and accessible to all users. The LiteraryHub is a place where book lovers can come together, share their love for books, and discover new books to read. 
 
 ## Getting Started
 
@@ -13,7 +13,6 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 - Node.js
-- MongoDB
 - NPM
 
 ### Installing
@@ -21,13 +20,13 @@ These instructions will get you a copy of the project up and running on your loc
 1. Clone the repository to your local machine using the following command:
 
 ```sh
-git clone https://github.com/literaryhub/swe-backend.git
+git clone https://github.com/literaryhub/swe-frontend.git
 ```
 
 2. Navigate to the project directory:
 
 ```sh
-cd swe-backend
+cd swe-frontend
 ```
 
 3. Run the following command to install all the dependencies:
@@ -36,27 +35,29 @@ cd swe-backend
 npm install
 ```
 
-### Database Setup
+### Environment Setup
 
-This application uses MongoDB as its database. You need to set up a MongoDB instance and provide the connection string in your environment variables.
-
-Create a `.env` file in the root directory of the project and add the following:
-
-```sh
-DB_CONNECTION_STRING=your_mongodb_connection_string
-```
-
-Replace `your_mongodb_connection_string` with your actual MongoDB connection string.
+Create a `.env` file in the root directory of the project and add your environment variables as needed.
 
 ### Running the Application
 
 To start the server, run the following command:
 
 ```sh
-npm start
+npm run dev
 ```
 
-The server will start on port 3001 or the port specified in your environment variables.
+The server will start on port 3000 or the port specified in your environment variables.
+
+### Building the Application
+
+To build the application, run the following command:
+
+```sh
+npm run build
+```
+
+This will create a production-ready build of your application.
 
 ### Creating the docker image
 Use the docker engine to build the image from current code:
@@ -66,15 +67,15 @@ This command will list details such as the image ID, repository, tag, and size f
 
 Use the docker engine to create a docker container and run a particular image with image name:
 ```
-docker build -t literaryhub_ai_backend_image:latest .
+docker build -t literaryhub_ai_frontend_image:latest .
 ```
 
 ## Pushing the docker image to Docker Hub
 After creating the image locally, you'll want to push it to Docker Hub as follows:
 
 ```bash
-docker tag literaryhub_swe_backend_image:latest literaryhub/swe-backend:latest
-docker push literaryhub/swe-backend:latest
+docker tag literaryhub_swe_frontend_image:latest literaryhub/swe-frontend:latest
+docker push literaryhub/swe-frontend:latest
 ```
 
 ### Running the docker image locally
@@ -86,7 +87,7 @@ deployment process.
 
 Use the docker engine to create a docker container and run a particular image:
 ```
-sudo docker run -d -p 3001:3001 literaryhub_swe_backend_image:latest
+sudo docker run -d -p 3000:3000 literaryhub_swe_frontend_image:latest
 ```
 
 To see all the containers that you have locally, run:
@@ -109,17 +110,3 @@ docker start <container_id>
 sudo docker end <container_id>
 ```
 Note: you can't reuse the same container name multiple times, even if you're running the same image.
-
-
-## Features
-
-- User Authentication: The application supports user authentication with different roles such as 'Reader', 'Author', and 'Publisher'. This is implemented in the [`User`](model/user.js) model.
-- Book Ratings: Users can rate books. This is implemented in the [`RatingsReviews`](model/ratings.js) model.
-- Book Information: The application manages book information such as title, author, summary, price, rating, and date. This is implemented in the [`Book`](model/main.js) model.
-
-## Built With
-
-- [Node.js](https://nodejs.org/)
-- [Express](https://expressjs.com/)
-- [MongoDB](https://www.mongodb.com/)
-- [Mongoose](https://mongoosejs.com/)
