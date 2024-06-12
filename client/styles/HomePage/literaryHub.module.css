@@ -1,0 +1,110 @@
+.component{
+    width: 1440px;
+    height: 150px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 281px;
+    height: 70px;
+    flex-shrink: 0;
+    margin-left: 10px;
+}
+
+.searchbar{
+    width: 620px;
+    height: 15px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #F6F6F6;
+    padding: 31px;
+    color: black;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.68px;
+    text-transform: capitalize;
+    margin-left: 50PX;
+}
+
+.authentication{
+    margin-left: 350px;
+    margin-bottom: 30px;
+    width: 196px;
+    height: 17px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+  
+
+}
+
+.signup{
+    margin-right: 30px;
+    color: #393280;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+  
+
+}
+.login {
+    margin-left: 30px;
+    color: #393280;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-right: 10px;
+ 
+  }
+
+.avatar{
+    margin-left: 20px;
+}
+
+
+.separator{
+    width: 1px;
+    height: var(--Spacing-space-4, 16px);
+    flex-shrink: 0;
+    color: #E0E0E0;
+    
+}
+
+.image{
+    width: 18px;
+    height: 16px;
+    flex-shrink: 0;
+    margin-top: 22.5px;
+    transform: translateX(-3400%);
+}
+
+.searchcontainer{
+    display: flex;
+}
+
+.search {
+    background-color: #eef3f8;
+    padding: 0px 10px;
+    border-radius: 10px;
+    width: 40%;
+    position: relative;
+    height: 40px;
+    margin-left: 15px;
+  }
+  .searchicon2 {
+    color: black;
+    transform: rotate(90deg);
+  }

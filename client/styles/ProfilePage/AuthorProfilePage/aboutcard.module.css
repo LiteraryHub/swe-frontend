@@ -1,0 +1,67 @@
+/* aboutcard.module.css */
+.paper {
+  padding: 35px;
+  margin-top: 10px;
+  background-color: white;
+  width: 1180px;
+  height: 150px;
+  border-radius: 10px;
+  position: relative; /* Add relative positioning to the paper container */
+}
+
+/* Style for expanded paper */
+.expandedPaper {
+  height: auto;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #181818;
+  margin-top: -20px;
+
+}
+
+.about {
+  text-align: justify;
+  font-size: 15px;
+  color: black;
+  line-height: 1.5;
+  
+}
+
+.content {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.edit {
+  position: absolute; /* Change to absolute positioning */
+  top: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  margin-right: 95%;
+}
+
+.text {
+  margin-left: -15px;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.form {
+  margin-bottom: -300px;
+  margin-right: 35%;
+}
+
+.text {
+  margin-left: 1%;
+  max-height: 500px;
+  max-width: 600px;
+}

@@ -1,0 +1,45 @@
+.team{
+    margin-top: 60px;
+    margin-right: 50px;
+}
+
+.title{
+    text-align: center;
+    color: #393280;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.members{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 250px;
+    
+}
+
+.moamen{
+    margin-top: 4.5px;
+    margin-right: 25px;
+    
+}
+.youssef{
+    margin-top: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

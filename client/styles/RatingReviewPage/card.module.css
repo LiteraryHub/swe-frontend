@@ -1,0 +1,40 @@
+.pay{
+    margin-right: 140px;
+    margin-top: -60px;
+    
+}
+
+
+
+.card{
+    width: 250px;
+    height: 450px;
+    margin-top: 130px;
+    border-radius: 12px; 
+}
+
+.price{
+    font-size: medium;
+    font-weight: bold;
+    margin-right: 40%;
+    margin-top: -10px;
+    color: #C26D0A;
+}
+
+.buttons{
+    margin-top: 50%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    margin-right: 5%;
+    margin-top:-20px;
+}
+
+
+

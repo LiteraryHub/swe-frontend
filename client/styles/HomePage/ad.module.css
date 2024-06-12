@@ -1,0 +1,102 @@
+.ad{
+    width: 1449px;
+    height: 553px;
+    background-image: url('/background.png');
+    background-repeat: no-repeat;
+    background-size: 1440px 657px;
+    
+}
+
+.main{
+    margin-top: 160px;
+}
+
+.separator{
+    width: 33px;
+    height: var(--Spacing-space-0, 2px);
+    flex-shrink: 0;
+    background: #ED553B;
+    margin-left: 50px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 55%;
+}
+
+.contenttitle{
+    width: 207px;
+    height: 19px;
+    flex-shrink: 0;
+    color: #ED553B;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  
+}
+
+.content{
+    display: flex;
+   
+}
+
+.explore{
+    width: 528px;
+    height: 43px;
+    flex-shrink: 0;
+    color: #393280;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px; /* 137.5% */
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.image{
+    width: 590px;
+    height: 530px;
+    flex-shrink: 0;
+    margin-left: 350px;
+    margin-bottom: 200px;
+
+}
+
+.inputwrapper {
+    position: relative;
+    width: 200px;
+    margin-top: 340px;
+    margin-left: 60px;
+   
+    
+  }
+
+  .email{
+    width: 600px;
+    height: 60px;
+    flex-shrink: 0;
+    
+    background: #FFF;
+    padding: 20px;
+
+  }
+  .button {
+    position: absolute;
+    top: 0%;
+    right: 429%;
+    transform: translateX(570%);
+    width: 140px;
+    height: 60px;
+    flex-shrink: 0;
+    
+    background: #ED553B;
+  }
+  
+  .button:hover{
+    background: #ED553B;
+  }

@@ -1,0 +1,54 @@
+.content{
+    width: 326px;
+    height: 437px;
+    flex-shrink: 0;
+}
+
+
+.image{
+    width: 228px;
+    height: 333px;
+    flex-shrink: 0;
+    border: 2px solid #f5cf29;
+}
+
+.title{
+    color: #393280;
+    text-align: center;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.author{
+    color: #888;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-transform: capitalize;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+.price{
+    color: #ED553B;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    margin-right: 100px;
+    margin-top: 10px;
+}

@@ -1,0 +1,37 @@
+.logo{
+    width: 281px;
+    height: 70px;
+    flex-shrink: 0;
+    margin-left: 10px;
+}
+
+.image{
+    width: 1520px;
+    height: 596px;
+    flex-shrink: 0;
+    margin-top: 40px;
+}
+
+.title{
+    width: 471.069px;
+    height: 87px;
+    flex-shrink: 0;
+    color: #393280;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 145%; /* 87px */
+    letter-spacing: -1.2px;
+    text-transform: capitalize;
+    margin-left: 500px;
+}
+
+.container{
+    margin-right: 540px;
+}
+
+
+
+
+

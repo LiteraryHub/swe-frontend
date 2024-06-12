@@ -1,0 +1,110 @@
+.image{
+    width: 380px;
+    height: 500px;
+    flex-shrink: 0;
+    border: 2px solid orange;
+    margin-left: 200px;
+    margin-top: 100px;
+    
+}
+
+.author{
+    color: rgb(33, 33, 109);
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: -5px;
+
+}
+
+.title{
+    width: 141px;
+    height: 46px;
+    flex-shrink: 0;
+    color: black;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.date{
+    width: 100px;
+    height: 30px;
+    flex-shrink: 0;
+    color: gray;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 20px;
+    margin-right: 10px;
+
+
+}
+
+.horizontal{
+    color: black;
+    width: 650px;
+    margin-top: 20px;
+}
+
+
+.description{
+    width: 486px;
+    height: 89px;
+    flex-shrink: 0;
+    color: black;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 208%; /* 33.28px */
+    letter-spacing: 0.32px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+.bookview{
+    display: flex;
+    margin-right: 90px;
+    margin-top: -10px;
+    color: rgb(33, 33, 109);
+    
+}
+
+.content{
+    margin-top: 100px;
+    margin-right: -150px;
+
+}
+.rate{
+    display: flex;
+    margin-top: 10px;
+}
+
+.number{
+    font-size: large;
+    margin-right: 5px;
+    margin-top: -2px;
+    font-weight: 600;
+    
+}
+
+.reader{
+    margin-left: 20px;
+}
+

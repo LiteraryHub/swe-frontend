@@ -1,0 +1,111 @@
+.head{
+    margin-right: 115px;
+}
+
+.separator{
+    width: 33px;
+    height: var(--Spacing-space-0, 2px);
+    flex-shrink: 0;
+    background: #ED553B;
+    margin-left: 50px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: -70px;
+     
+}
+
+.contenttitle{
+    width: 207px;
+    height: 19px;
+    flex-shrink: 0;
+    color: #ED553B;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 20px;
+}
+
+.content{
+    display: flex;
+   
+}
+
+.description{
+    width: 707px;
+    height: 162px;
+    flex-shrink: 0;
+
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 177.778% */
+    margin-left: 230px;
+    font-weight: 600;
+}
+
+.explore{
+    width: 528px;
+    height: 43px;
+    flex-shrink: 0;
+    color: #393280;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px; /* 137.5% */
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.categoriescontent{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    margin-left: 120px;
+    margin-top: 200px;
+    
+}
+
+.circlescontainer {
+    position: relative; /* Allows for absolute positioning of small circle */
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 200px;
+  }
+  
+  .bigcircle {
+    width: 41.659px;
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 41.659px;
+    border: 1px solid #ED553B;
+    margin-top: auto;
+    border-radius: 50%; /* Ensure a perfect circle */
+    border: 1px solid #ED553B;
+    position: relative; /* Enable positioning of absolute elements within */
+    margin-left: 488px;
+  }
+  
+  .smallcircle {
+    width: 13.886px;
+    height: 13px;
+    flex-shrink: 0;
+    border-radius: 13.886px;
+    background: #ED553B;
+    margin-left: -130px;
+    border-radius: 50%; /* Ensure a perfect circle */
+    background: #ED553B;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the small circle within the big circle */
+  }
+
+

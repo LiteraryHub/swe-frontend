@@ -1,0 +1,22 @@
+.input{
+    padding: 5px;
+    width: 500px;  
+ }
+ 
+ .text{
+     padding: 5px; 
+     width: 500px;
+     height: 100px; 
+ }
+ 
+ .button{
+     display: flex;
+     padding: 16px;
+     flex-direction: column;
+     align-items: flex-start;
+     gap: 10px;
+     border-radius: 8px;
+     background: var(--Keatext-purple, #7A5CFA);
+     margin-left: 200px;
+     
+ }

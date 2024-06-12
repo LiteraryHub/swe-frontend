@@ -1,0 +1,84 @@
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+  }
+  
+  .logo {
+    width: 281px;
+    height: 70px;
+    flex-shrink: 0;
+    margin-left: 10px;
+  }
+  
+  .search {
+    background-color: #eef3f8;
+    padding: 0px 10px;
+    border-radius: 3px;
+    width: 40%;
+    position: relative; /* Make the position relative to contain absolute positioned elements */
+  }
+  
+  .icons {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    color: black;
+  }
+  
+  .searchicon2 {
+    color: black;
+    transform: rotate(90deg);
+  }
+  
+  .ty{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size:small;
+  }
+
+  .pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .text{
+    color: #393280;
+      text-align: center;
+      font-family: Inter;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 500px;
+      line-height: normal;
+      text-transform: capitalize;
+      margin-top: 10px;
+      margin-left: 70%;
+    
+  }
+  
+  .tag{
+    color: black;
+    margin-top: -10px;
+    margin-left: 10px;
+  }
+
+  .noBooksFound {
+    font-weight: bold;
+    font-size: xx-large;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 560px;
+    height: 200px; /* Adjust height as needed */
+  }
+
+  .booksContainer{
+    display: flex; /* Arranges books horizontally */
+    margin-top: 50px; /* Top margin for spacing */
+    margin-right: 20px; /* Left margin for positioning */
+    gap: 70px;
+    
+  }

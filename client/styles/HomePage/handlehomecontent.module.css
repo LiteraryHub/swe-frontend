@@ -1,0 +1,25 @@
+.title{
+    width: 471.069px;
+    height: 87px;
+    flex-shrink: 0;
+    color: #393280;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 145%;
+    letter-spacing: -1.2px;
+    text-transform: capitalize;
+}
+
+.description{
+    width: 544px;
+    height: 127px;
+    flex-shrink: 0;
+    color: var(--Core-black, #000);
+    font-family: Lora;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }

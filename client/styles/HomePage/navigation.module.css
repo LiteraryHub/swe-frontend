@@ -1,0 +1,24 @@
+.horizontalseparator{
+    width: 1316px;
+    height: var(--Spacing-space-0, 2px);
+    flex-shrink: 0;
+    color: #E0E0E0;
+    margin-left: 110px;
+
+}
+
+.items{
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 160px;
+
+}
+
+.verticalseparator{
+    width: 1316px;
+    height: var(--Spacing-space-0, 2px);
+    flex-shrink: 0;
+    color: #E0E0E0;
+    margin-left: 110px;
+    margin-right: 50px;
+}

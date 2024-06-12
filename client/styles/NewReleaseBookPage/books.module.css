@@ -1,0 +1,36 @@
+.HandleBooks { /* Target the Stack component */
+    margin: 20px; /* Add margin around each book card */
+
+   
+  }
+
+.Paper{
+  width: 700px;
+  border-radius: 30px;
+}
+  
+.Content { /* Target the div inside Stack */
+    background-color: white; /* Add a light gray background */
+    padding: 10px; /* Add padding around content */
+    border-radius: 5px; /* Add rounded corners */
+  }
+  
+  .HandleBooks img { /* Target the image element */
+    width: 30%; /* Set image width to 100% of container */
+    max-height: 300px; /* Set a maximum height for the image */
+  }
+  
+  .HandleBooks h2 { /* Target the title element */
+    margin-top: 10px; /* Add margin above the title */
+    font-weight: bold;
+    
+    
+  }
+  
+  .HandleBooks p { /* Target the paragraph elements */
+    margin-bottom: 5px; /* Add margin below each paragraph */
+    font-weight: bold;
+  }
+
+
+  

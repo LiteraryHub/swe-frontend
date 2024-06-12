@@ -1,0 +1,29 @@
+.content{
+    width: 326px;
+    height: 437px;
+    flex-shrink: 0;
+}
+
+
+.image{
+    width: 200px;
+    height: 230px;
+    flex-shrink: 0;
+    border: 2px solid black;
+}
+
+
+.author{
+    color: black;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-transform: capitalize;
+   
+    margin-top: 10px;
+}
+

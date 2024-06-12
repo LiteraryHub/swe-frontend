@@ -1,0 +1,121 @@
+.center{
+    margin-top: 110px;
+    color: black;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-weight: 600;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    
+}
+
+.separator1{
+    width: 445px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #E0E0E0;
+    margin-left: 20px;
+}
+
+.text{
+    color: #393280;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 100px;
+
+}
+
+.separator2{
+    width: 445px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #E0E0E0;
+    margin-left: 50px;
+}
+
+.newreleasecontent{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 160px;
+}
+
+.circlescontainer {
+    position: relative; /* Allows for absolute positioning of small circle */
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 200px;
+  }
+  
+  .bigcircle {
+    width: 41.659px;
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 41.659px;
+    border: 1px solid #ED553B;
+    margin-top: auto;
+    border-radius: 50%; /* Ensure a perfect circle */
+    border: 1px solid #ED553B;
+    position: relative; /* Enable positioning of absolute elements within */
+    margin-left: 488px;
+  }
+  
+  .smallcircle {
+    width: 13.886px;
+    height: 13px;
+    flex-shrink: 0;
+    border-radius: 13.886px;
+    background: #ED553B;
+    margin-left: -130px;
+    border-radius: 50%; /* Ensure a perfect circle */
+    background: #ED553B;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the small circle within the big circle */
+  }
+
+.viewallproducts{
+    color: #ED553B;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    text-transform: capitalize;
+    margin-left: 1320px;
+    
+
+}
+.arrow{
+    width:40px;
+    height: 13px;
+    flex-shrink: 0;
+    margin-top: 3px;
+    color: #ED553B ;
+}
+
+.view{
+    display: flex;
+    padding: 1px;
+    margin-bottom: 300px;
+    margin-top: 70px;
+    
+}
+
+

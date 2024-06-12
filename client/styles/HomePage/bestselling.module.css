@@ -1,0 +1,63 @@
+.bestselling{
+    width: 1449px;
+    height: 553px;
+    background-image: url('/background.png');
+    background-repeat: no-repeat;
+    background-size: 1440px 657px;
+}
+
+.separator{
+    width: 200px;
+    height: 3px;
+    flex-shrink: 0;
+    background: #ED553B;
+    margin-left: 830px ;
+    margin-top: 30px;
+    margin-right: 600px;
+}
+
+.type{
+    color: #393280;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: right;
+    margin-top: -550px;
+    margin-right: 600px;
+}
+
+.button{
+    width: 157px;
+    height: 61px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 1px solid #C26D0A;
+    margin-top: 530px;
+    padding: 20px;
+    margin-right: 900px;
+    margin-left: 830px;
+    margin-top: 350px;
+    
+}
+
+
+.button:hover{
+    border-color: #C26D0A;
+    border-radius: 7px;
+    
+  }
+.span{
+    color: black;
+    
+}
+
+
+.arrow{
+    color: black;
+    
+    }
+
+

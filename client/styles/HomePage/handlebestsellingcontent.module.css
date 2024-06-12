@@ -1,0 +1,73 @@
+.image{
+    width: 413px;
+    height: 602px;
+    flex-shrink: 0;
+    border: 2px solid #131cc3;
+    margin-left: 120px;
+    margin-top: -100px;
+}
+
+.author{
+    color: black;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+   
+    text-transform: uppercase;
+}
+
+.title{
+    width: 141px;
+    height: 46px;
+    flex-shrink: 0;
+    color: #393280;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.description{
+    width: 486px;
+    height: 89px;
+    flex-shrink: 0;
+    color: black;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 208%; /* 33.28px */
+    letter-spacing: 0.32px;
+    font-weight: 600;
+}
+
+
+
+.price{
+    color: #ED553B;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.46px;
+    text-transform: capitalize;
+    margin-top: 120px;
+    margin-right: 70%;
+}
+.best{
+    display: flex;
+    margin-right: 70px;
+}
+
+.winner{
+    margin-top: 70px;
+    margin-left: 300px;
+
+}
+
+

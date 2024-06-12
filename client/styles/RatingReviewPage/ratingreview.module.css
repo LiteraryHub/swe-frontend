@@ -1,0 +1,45 @@
+.container{
+    margin-top: 30px;
+    margin-right: 7%;
+
+  }
+
+.title{
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+   
+}
+
+.stars{
+  display: flex;
+  margin-left: 92%;
+
+  
+  }
+
+.textarea{
+    border: "1px solid #a9a9a9";
+    border-radius: 5;
+    padding: 14px;
+    margin: "20px 0";
+    max-height: 70px;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: -3px;
+    color: black;
+    font-weight: bold;
+  }
+
+
+  
+  .head{
+    font-size: large;
+    font-weight: bold;
+  
+  }
+
+  .rate{
+    margin-top: 5px;
+  }
+
