@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Container, Typography, Paper } from '@mui/material';
 import { orange } from '@mui/material/colors';
-// import NavBar from 'C:/Users/Youssef Tarek/Documents/GarduationProject/client/app/Navbar/NavBar';
 
 const UploadPage = () => {
   const [file, setFile] = useState<File | null>(null);
@@ -24,6 +23,8 @@ const UploadPage = () => {
       return;
     }
 
+    window.location.href = 'http://localhost:3000/AICheckPage'; // Navigate to the success page immediately
+
     const formData = new FormData();
     formData.append('file', file);
 
@@ -34,17 +35,18 @@ const UploadPage = () => {
       });
       if (response.ok) {
         const result = await response.json();
-        setUploadStatus(`File uploaded successfully: ${JSON.stringify(result)}`);
+        console.log(`File uploaded successfully: ${JSON.stringify(result)}`);
       } else {
-        throw new Error('Failed to upload file');
+        //throw new Error('Failed to upload file');
       }
     } catch (error: any) {
+      //console.error(`Upload failed: ${error.message}`);
       setUploadStatus(`Upload failed: ${error.message}`);
     }
   };
 
   return (
-    <><Paper elevation={0} square sx={{ backgroundColor: '#f0f0f0', minHeight: '100vh', padding: '20px' }}>
+    <Paper elevation={0} square sx={{ backgroundColor: '#f0f0f0', minHeight: '100vh', padding: '20px' }}>
       <Container maxWidth="md" sx={{ marginTop: '50px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <Typography variant="h4" gutterBottom sx={{ fontWeight: 'bold', color: orange[500] }}>
           رفع كتاب على المنصة
@@ -54,7 +56,8 @@ const UploadPage = () => {
           id="upload-button"
           accept=".docx"
           onChange={handleFileChange}
-          style={{ display: 'none' }} />
+          style={{ display: 'none' }}
+        />
         <label htmlFor="upload-button">
           <Button
             variant="contained"
@@ -103,7 +106,7 @@ const UploadPage = () => {
           </Typography>
         )}
       </Container>
-    </Paper></>
+    </Paper>
   );
 };
 
